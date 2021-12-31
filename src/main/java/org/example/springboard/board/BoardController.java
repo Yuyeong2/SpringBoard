@@ -1,7 +1,7 @@
-package org.example.springboard;
+package org.example.springboard.board;
 
 import com.sun.istack.internal.NotNull;
-import com.sun.org.apache.xalan.internal.res.XSLTErrorResources_fr;
+import org.example.springboard.board.model.BoardEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,7 +12,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 import java.util.Map;
 
 @Controller
